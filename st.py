@@ -26,7 +26,7 @@ def convert_df_to_excel(df):
     return processed_data
 
 # Streamlit UI
-st.title("INP to Excel Converter")
+st.title("Hi!, Welcome to INP to Excel Converter")
 st.write("Upload a `.inp` file and download the converted Excel file.")
 
 uploaded_file = st.file_uploader("Upload .inp File", type=["inp"])
